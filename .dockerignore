@@ -1,0 +1,8 @@
+**/.nuxt
+**/node_modules
+**/.pytest_cache
+*.iml
+.idea/
+web-frontend/reports/
+backend/reports/
+backend/src/baserow.egg-info
