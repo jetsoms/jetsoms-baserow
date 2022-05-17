@@ -5,28 +5,7 @@
         alert alert--simple alert--warning alert--has-icon
         dashboard__alert
       "
-    >
-      <div class="alert__icon">
-        <i class="fas fa-exclamation"></i>
-      </div>
-      <div class="alert__title">{{ $t('dashboard.alertTitle') }}</div>
-      <p class="alert__content">
-        {{ $t('dashboard.alertText') }}
-      </p>
-      <a
-        href="https://github.com/sponsors/bram2w"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="button button--primary dashboard__alert-button"
-      >
-        {{ $t('dashboard.becomeGithubSponsor') }}
-        <i class="fa fa-heart"></i>
-      </a>
-      <a
-        href="https://gitlab.com/bramw/baserow"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="button button--primary dashboard__alert-button"
+
       >
         {{ $t('dashboard.starOnGitlab') }}
         <i class="fab fa-gitlab"></i>
